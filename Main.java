@@ -68,7 +68,6 @@ public class Main {
             res.createGraphics().drawImage(img,0,0, Color.WHITE, null);
             ImageIO.write(res,"jpg",out);
             fileName="";
-            System.out.println("Converting sucessfull! "+fN);
             JOptionPane.showConfirmDialog(null, "Convert next?", "Sucessfully converted!", JOptionPane.OK_CANCEL_OPTION );
         }
         catch (IOException ioe){
