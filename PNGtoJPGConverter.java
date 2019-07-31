@@ -9,7 +9,7 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 
-public class Main {
+public class PNGtoJPGConverter {
     static String fileName="";
     public static void main(String[] args) {
         show();
