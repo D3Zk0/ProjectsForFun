@@ -73,7 +73,6 @@ public class PNGtoJPGConverter {
         catch (IOException ioe){
             ioe.printStackTrace();
             JOptionPane.showMessageDialog(null,"File not exist! Try to browse again.");
-            System.out.println("Reading error, browse again please! "+fN+"..");
             fileName=browse();
         }
     }
